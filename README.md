@@ -1,2 +1,17 @@
-# double-the-given-value.c
-print double the value of given integer if the values are equal
+ #include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a==b)
+    {
+        printf("sum is:%d",(a+b)*2);
+    }
+            else
+            {
+                printf("sum is:%d",(a+b));
+                
+            }
+        
+    
+}
